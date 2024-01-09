@@ -1,11 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import Social from './assets/Components/Social';
 
 function App() {
   return (
-    <div className="App">
-     
-    </div>
+    <>
+      <Social/>
+    </>
   );
 }
 
