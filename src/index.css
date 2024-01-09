@@ -7,8 +7,12 @@
 
 
 @font-face {
-  font-family: "gilroy_heavy";
-  src: url("./assets/fonts/gilroy/Gilroy-Medium.ttf");
+  font-family: "gilroy_semibold";
+  src: url("./assets/fonts/gilroy/Gilroy-SemiBold.ttf");
+}
+@font-face {
+  font-family: "gilroy_bold";
+  src: url("./assets/fonts/gilroy/Gilroy-Bold.ttf");
 }
 .ff_gilroy_heavy{
   font-family: "gilroy_heavy";
