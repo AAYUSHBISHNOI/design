@@ -1,9 +1,11 @@
 import "./App.css";
-import Social from "./assets/Components/Social";
+import Myheader from "./Components/Myheader";
+import Social from "./Components/Social";
 
 function App() {
   return (
     <>
+      <Myheader />
       <Social />
     </>
   );
