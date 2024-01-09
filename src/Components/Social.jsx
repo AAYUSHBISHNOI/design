@@ -2,7 +2,7 @@ import React from 'react'
 
 const Social = () => {
   return (
-    <div>Social</div>
+    <div className=' ff_gilroy_heavy text-[48px] font-semibold'>Social</div>
   )
 }
 
