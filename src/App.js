@@ -1,5 +1,5 @@
 import './App.css';
-import Social from './assets/Components/Social';
+import Social from './Components/Social';
 
 function App() {
   return (
