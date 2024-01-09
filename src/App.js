@@ -1,10 +1,11 @@
-import './App.css';
+import "./App.css";
+import Social from "./assets/Components/Social";
 
 function App() {
   return (
-    <div>
-     
-    </div>
+    <>
+      <Social />
+    </>
   );
 }
 
