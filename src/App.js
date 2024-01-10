@@ -1,4 +1,9 @@
 import "./App.css";
+import Listen from "./Components/Listen";
+import Our from "./Components/Our";
+
+import Consectetur from "./Components/Consectetur";
+import { LoremIpsum } from "./Components/LoremIpsum";
 import Myheader from "./Components/Myheader";
 import Social from "./Components/Social";
 import "slick-carousel/slick/slick.css"; 
@@ -7,10 +12,15 @@ import Myfooter from "./Components/Myfooter";
 
 function App() {
   return (
-    <>
+    < div className=" overflow-hidden">
       <Myheader />
-      <Social />
-    </> 
+      <LoremIpsum />
+       <Consectetur />
+       <Social/>
+      <Our/>
+      <Listen/>
+      <Myfooter/>
+    </div>
   );
 }
 

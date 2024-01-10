@@ -6,9 +6,14 @@
 @tailwind utilities;
 
 
+
 @font-face {
   font-family: "gilroy_semibold";
   src: url("./assets/fonts/gilroy/Gilroy-SemiBold.ttf");
+}
+@font-face {
+  font-family: "gilroy_heavy";
+  src: url("./assets/fonts/gilroy/Gilroy-Medium.ttf");
 }
 @font-face {
   font-family: "gilroy_bold";
@@ -32,21 +37,13 @@
 .bttn_view{
   background: var(--Linear, linear-gradient(265deg, #54E1A1 1.77%, #45ABD5 97.88%));
 }
-.card_bg{
-  background: white;
-  /* transition: all 1000ms linear !important; */
-}
-.card_bg:hover{
-  background: var(--Linear, linear-gradient(265deg, #54E1A1 1.77%, #45ABD5 97.88%));
-  box-shadow: 0px 0px 10.066px 0px rgba(0, 0, 0, 0.10) ;
-}
-.card_bg:hover .my_elps{
+.card_bg:hover .my_elps path{
   fill: white !important;
 }
 .txt_clr_1{
   color: #525252;
 }
-.card_bg:hover .txt_clr_1{
+.card_radius:hover .txt_clr_1{
   color: white;
 }
 .txt_clr{
@@ -66,4 +63,76 @@ background-clip: text;
   border-radius: 16.25px;
   border: 3px solid var(--Linear, #54E1A1);
   background: var(--Linear, linear-gradient(265deg, #54E1A1 1.77%, #45ABD5 97.88%));
+}
+.ff_gilroy_bold {
+  font-family: "gilroy_bold";
+}
+.ff_semi_bold {
+  font-family: "gilroy_semibold";
+}
+.ff_inter {
+  font-family: "Inter";
+}
+.login_btn {
+  background: var(--Linear,linear-gradient(265deg, #54e1a1 1.77%, #45abd5 97.88%)) !important;
+}
+.nav_links:hover {
+  -webkit-text-stroke: 0.7px;
+  color: black;
+}
+.massa_clr {
+  background: var(--Linear,linear-gradient(265deg, #54e1a1 1.77%, #45abd5 97.88%)) !important;
+  background-clip: text !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+.card_border_gradient {
+  background: linear-gradient(white, white) padding-box,linear-gradient(to right, #b5dfed, #bbf3d9) border-box;
+  border: 2px solid transparent !important;
+}
+.card_border_gradien_1 {
+  background: linear-gradient(white, white) padding-box,linear-gradient(to right, #b5dfed, #bbf3d9) border-box;
+  border: 2px solid transparent !important;
+}
+.card_border_gradient:hover {
+  background: var(--Linear,linear-gradient(265deg, #54e1a1 1.77%, #45abd5 97.88%)) !important;
+  box-shadow: 0px 0px 7.7px 0px rgba(0, 0, 0, 0.15) !important;
+}
+.card_border_gradient:hover p {
+  color: white !important;
+}
+#listen .slick-slide{
+  padding-top: 10px !important; 
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  padding-bottom: 10px !important;
+}
+.slider_arrow:hover rect{
+  fill: #45ABD5 !important;
+  stroke: transparent !important;
+}
+.slider_arrow:hover path{
+  stroke: white !important;
+}
+.card_bg {
+  height: 100%;
+  position: relative;
+  width: 100%;
+  transition: all 500ms linear; 
+}
+.card_bg:after {
+  content:""; 
+  background: var(--Linear, linear-gradient(265deg, #54E1A1 1.77%, #45ABD5 97.88%));
+  height: 100%;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  transition: all 500ms;
+  z-index: -1;
+  border-radius: 12px;
+  width:100%;
+}
+.card_bg:hover::after{
+  opacity: 1;
 }

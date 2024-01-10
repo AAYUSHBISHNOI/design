@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import nav_logo from "../assets/img/nav_logo.svg";
-import menu from "../assets/img/menu.svg";
-import close from "../assets/img/close.svg";
-import hero_img from "../assets/img/hero_img.png";
+import nav_logo from "../assets/img/svg/nav_logo.svg";
+import menu from "../assets/img/svg/menu.svg";
+import close from "../assets/img/svg/close.svg";
+import hero_img from "../assets/img/png/hero_img.png";
 const Myheader = () => {
   //   useEffect(() => {
   //     AOS.init({
