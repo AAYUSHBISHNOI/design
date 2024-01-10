@@ -3,29 +3,25 @@ import Listen from "./Components/Listen";
 import Our from "./Components/Our";
 
 import BackToTop from "./Components/BackToTop";
-import Consectetur from "./Components/Consectetur";
 import { LoremIpsum } from "./Components/LoremIpsum";
-import Myheader from "./Components/Myheader";
 import Social from "./Components/Social";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import Myfooter from "./Components/Myfooter";
+import Myheader from "./Components/Myheader";
+import Consectetur from "./Components/Consectetur";
 
 function App() {
   return (
     < div className=" overflow-hidden">
-      <Myheader />
+      <BackToTop />
+      <Myheader/>
       <LoremIpsum />
-       <Consectetur />
-       <Social/>
+      <Consectetur/>
+      <Social />
       <Our/>
       <Listen/>
       <Myfooter/>
-      <BackToTop />
-      <Myheader />
-      <LoremIpsum />
-      <Consectetur />
-      <Social />
     </div>
   );
 }

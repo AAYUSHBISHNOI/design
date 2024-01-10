@@ -19,23 +19,31 @@
   font-family: "gilroy_bold";
   src: url("./assets/fonts/gilroy/Gilroy-Bold.ttf");
 }
+.ff_gilroy_bold {
+  font-family: "gilroy_bold";
+}
+@font-face {
+  font-family: "gilroy_bolditlaic";
+  src: url("./assets/fonts/gilroy/Gilroy-BoldItalic.ttf");
+}
+.ff_gilroy_bolditlaic {
+  font-family: "gilroy_bolditlaic";
+}
+.ff_semi_bold {
+  font-family: "gilroy_semibold";
+}
+.ff_inter {
+  font-family: "Inter";
+}
 .ff_gilroy_heavy{
   font-family: "gilroy_heavy";
 }
 .ff_lato{
   font-family: "Lato";
 }
-.ff_inter{
-  font-family: "Inter";
-}
+
 .line_height{
   line-height: normal !important;
-}
-.bg_button{
-  background: var(--Linear, linear-gradient(265deg, #54E1A1 1.77%, #45ABD5 97.88%));
-}
-.bttn_view{
-  background: var(--Linear, linear-gradient(265deg, #54E1A1 1.77%, #45ABD5 97.88%));
 }
 .card_bg:hover .my_elps path{
   fill: white !important;
@@ -61,18 +69,11 @@ background-clip: text;
 }
 .img_border{
   border-radius: 16.25px;
-  border: 3px solid var(--Linear, #54E1A1);
-  background: var(--Linear, linear-gradient(265deg, #54E1A1 1.77%, #45ABD5 97.88%));
+  background: linear-gradient(black, black) padding-box,
+    linear-gradient(to left, #54e1a1, #45abd5) border-box;
+  border: 2px solid transparent !important;
 }
-.ff_gilroy_bold {
-  font-family: "gilroy_bold";
-}
-.ff_semi_bold {
-  font-family: "gilroy_semibold";
-}
-.ff_inter {
-  font-family: "Inter";
-}
+
 .login_btn {
   background: var(--Linear,linear-gradient(265deg, #54e1a1 1.77%, #45abd5 97.88%)) !important;
   background: var(
@@ -98,7 +99,8 @@ background-clip: text;
   -webkit-text-fill-color: transparent !important;
 }
 .card_border_gradient {
-  background: linear-gradient(white, white) padding-box,linear-gradient(to right, #b5dfed, #bbf3d9) border-box;
+  background: linear-gradient(white, white) padding-box,
+    linear-gradient(to right, #b5dfed, #bbf3d9) border-box;
   border: 2px solid transparent !important;
 }
 .card_border_gradient:hover {
@@ -108,12 +110,6 @@ background-clip: text;
   border: transparent 2px solid !important;
 }
 .card_border_gradien_1 {
-  background: linear-gradient(white, white) padding-box,linear-gradient(to right, #b5dfed, #bbf3d9) border-box;
-  border: 2px solid transparent !important;
-}
-.card_border_gradient:hover {
-  background: var(--Linear,linear-gradient(265deg, #54e1a1 1.77%, #45abd5 97.88%)) !important;
-  box-shadow: 0px 0px 7.7px 0px rgba(0, 0, 0, 0.15) !important;
   background: linear-gradient(black, black) padding-box,
     linear-gradient(to right, #54e1a1, #45abd5) border-box;
   border: 2px solid transparent !important;
@@ -160,4 +156,7 @@ background-clip: text;
 }
 .card_bg:hover::after{
   opacity: 1;
+}
+html ,body{
+  scroll-behavior: smooth !important;
 }

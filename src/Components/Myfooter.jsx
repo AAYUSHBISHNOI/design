@@ -5,7 +5,7 @@ const Myfooter = () => {
     const today = new Date();
   const year = today.getFullYear();
   return (
-    <div className=' bg-black'>
+    <div id='ContactUs' className=' bg-black'>
         <div className=' container max-w-[1164px] mx-auto px-3'>
             <div className='pt-28 md:pt-48 flex flex-wrap'>
                 <div className=' md:w-[70%] lg:w-[44%]'>
@@ -40,11 +40,11 @@ const Myfooter = () => {
                 <div className=' w-[35%] md:w-[70%] lg:w-[20%] pt-5 lg:pt-0'>
                     <ul>
                         <li className=' text-white font-serif text-[24px] ff_gilroy_heavy line_height mb-[20px]'>Main Menu</li>
-                        <li><a href="" className=' text-[#b2b2b2] text-[16px] font-normal leading-[150%] ff_inter'>Home</a></li>
-                        <li className=' mt-[16px]'><a href="" className=' text-[#b2b2b2] text-[16px] font-normal leading-[150%] ff_inter'>About Us</a></li>
-                        <li className=' mt-[16px]'><a href="" className=' text-[#b2b2b2] text-[16px] font-normal leading-[150%] ff_inter'>Services</a></li>
-                        <li className=' mt-[16px]'><a href="" className=' text-[#b2b2b2] text-[16px] font-normal leading-[150%] ff_inter'>Portfolio</a></li>
-                        <li className=' mt-[16px]'><a href="" className=' text-[#b2b2b2] text-[16px] font-normal leading-[150%] ff_inter'>Contact Us</a></li>
+                        <li><a href="#Home" className=' text-[#b2b2b2] text-[16px] font-normal leading-[150%] ff_inter'>Home</a></li>
+                        <li className=' mt-[16px]'><a href="#AboutUs" className=' text-[#b2b2b2] text-[16px] font-normal leading-[150%] ff_inter'>About Us</a></li>
+                        <li className=' mt-[16px]'><a href="Services" className=' text-[#b2b2b2] text-[16px] font-normal leading-[150%] ff_inter'>Services</a></li>
+                        <li className=' mt-[16px]'><a href="#Portfolio" className=' text-[#b2b2b2] text-[16px] font-normal leading-[150%] ff_inter'>Portfolio</a></li>
+                        <li className=' mt-[16px]'><a href="#ContactUs" className=' text-[#b2b2b2] text-[16px] font-normal leading-[150%] ff_inter'>Contact Us</a></li>
                     </ul>
                 </div>
                 <div className=' md:w-[30%] lg:w-[10%]'>
