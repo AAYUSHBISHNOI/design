@@ -2,6 +2,7 @@ import "./App.css";
 import Listen from "./Components/Listen";
 import Our from "./Components/Our";
 
+import BackToTop from "./Components/BackToTop";
 import Consectetur from "./Components/Consectetur";
 import { LoremIpsum } from "./Components/LoremIpsum";
 import Myheader from "./Components/Myheader";
@@ -20,6 +21,11 @@ function App() {
       <Our/>
       <Listen/>
       <Myfooter/>
+      <BackToTop />
+      <Myheader />
+      <LoremIpsum />
+      <Consectetur />
+      <Social />
     </div>
   );
 }

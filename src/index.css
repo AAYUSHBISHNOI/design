@@ -75,6 +75,17 @@ background-clip: text;
 }
 .login_btn {
   background: var(--Linear,linear-gradient(265deg, #54e1a1 1.77%, #45abd5 97.88%)) !important;
+  background: var(
+    --Linear,
+    linear-gradient(265deg, #54e1a1 1.77%, #45abd5 97.88%)
+  ) !important;
+  transition: all 350ms linear !important;
+}
+.login_btn:hover {
+  background: var(
+    --Linear,
+    linear-gradient(265deg, #45abd5 1.77%, #54e1a1 97.88%)
+  ) !important;
 }
 .nav_links:hover {
   -webkit-text-stroke: 0.7px;
@@ -90,6 +101,12 @@ background-clip: text;
   background: linear-gradient(white, white) padding-box,linear-gradient(to right, #b5dfed, #bbf3d9) border-box;
   border: 2px solid transparent !important;
 }
+.card_border_gradient:hover {
+  background: linear-gradient(265deg, #54e1a1 1.77%, #45abd5 97.88%) padding-box,
+    linear-gradient(265deg, #54e1a1 1.77%, #45abd5 97.88%) border-box !important;
+  box-shadow: 0px 0px 7.7px 0px rgba(0, 0, 0, 0.15) !important;
+  border: transparent 2px solid !important;
+}
 .card_border_gradien_1 {
   background: linear-gradient(white, white) padding-box,linear-gradient(to right, #b5dfed, #bbf3d9) border-box;
   border: 2px solid transparent !important;
@@ -97,6 +114,14 @@ background-clip: text;
 .card_border_gradient:hover {
   background: var(--Linear,linear-gradient(265deg, #54e1a1 1.77%, #45abd5 97.88%)) !important;
   box-shadow: 0px 0px 7.7px 0px rgba(0, 0, 0, 0.15) !important;
+  background: linear-gradient(black, black) padding-box,
+    linear-gradient(to right, #54e1a1, #45abd5) border-box;
+  border: 2px solid transparent !important;
+}
+.card_border_gradien_1:hover {
+  background: linear-gradient(265deg, #54e1a1 1.77%, #45abd5 97.88%) padding-box,
+    linear-gradient(265deg, #54e1a1 1.77%, #45abd5 97.88%) border-box !important;
+  border: transparent 2px solid !important;
 }
 .card_border_gradient:hover p {
   color: white !important;
