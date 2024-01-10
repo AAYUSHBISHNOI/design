@@ -20,12 +20,12 @@ const Myheader = () => {
   //     setshow(false);
   //   };
   return (
-    <div>
+    <div className="xl:min-h-screen xl:flex xl:flex-col">
       <nav>
-        <div className=" container  max-w-[1164px] mx-auto px-3 ">
-          <div className=" flex justify-between items-center py-[26px]">
-            <div className=" flex items-center gap-[171px] ">
-              <img src={nav_logo} alt="img" />
+        <div className="container  max-w-[1164px] mx-auto px-3 ">
+          <div className="flex justify-between items-center py-[26px]">
+            <div className="flex items-center gap-[171px] ">
+              <img src={nav_logo} alt="nav_logo" />
               <ul
                 className={`${
                   show ? "end-0" : "right-[-100%]"
@@ -35,7 +35,7 @@ const Myheader = () => {
                 <li>
                   <a
                     href="#Home"
-                    className=" text-[16px] font-normal ff_inter  text-[#666666] leading-[150%] nav_links"
+                    className="text-[16px] font-normal ff_inter text-[#666666] leading-[150%] nav_links relative after:absolute after:bg-[#000] after:w-0 after:h-[2px] after:bottom-[-5px] after:right-[50%] hover:after:right-[0] after:rounded-full  after:duration-300 inline hover:after:w-[100%]"
                   >
                     Home
                   </a>
@@ -43,7 +43,7 @@ const Myheader = () => {
                 <li>
                   <a
                     href="#AboutUs"
-                    className=" text-[16px] font-normal ff_inter  text-[#666666] leading-[150%] nav_links"
+                    className="text-[16px] font-normal ff_inter text-[#666666] leading-[150%] nav_links relative after:absolute after:bg-[#000] after:w-0 after:h-[2px] after:bottom-[-5px] after:right-[50%] hover:after:right-[0] after:rounded-full  after:duration-300 inline hover:after:w-[100%]"
                   >
                     About Us
                   </a>
@@ -51,7 +51,7 @@ const Myheader = () => {
                 <li>
                   <a
                     href="#Portfolio"
-                    className=" text-[16px] font-normal ff_inter  text-[#666666] leading-[150%] nav_links"
+                    className="text-[16px] font-normal ff_inter text-[#666666] leading-[150%] nav_links relative after:absolute after:bg-[#000] after:w-0 after:h-[2px] after:bottom-[-5px] after:right-[50%] hover:after:right-[0] after:rounded-full  after:duration-300 inline hover:after:w-[100%]"
                   >
                     Portfolio
                   </a>
@@ -59,7 +59,7 @@ const Myheader = () => {
                 <li>
                   <a
                     href="#Services"
-                    className=" text-[16px] font-normal ff_inter  text-[#666666] leading-[150%] nav_links"
+                    className="text-[16px] font-normal ff_inter text-[#666666] leading-[150%] nav_links relative after:absolute after:bg-[#000] after:w-0 after:h-[2px] after:bottom-[-5px] after:right-[50%] hover:after:right-[0] after:rounded-full  after:duration-300 inline hover:after:w-[100%]"
                   >
                     Services
                   </a>
@@ -67,7 +67,7 @@ const Myheader = () => {
                 <li>
                   <a
                     href="#ContactUs"
-                    className=" text-[16px] font-normal ff_inter  text-[#666666] leading-[150%] nav_links"
+                    className="text-[16px] font-normal ff_inter text-[#666666] leading-[150%] nav_links relative after:absolute after:bg-[#000] after:w-0 after:h-[2px] after:bottom-[-5px] after:right-[50%] hover:after:right-[0] after:rounded-full  after:duration-300 inline hover:after:w-[100%]"
                   >
                     Contact Us
                   </a>
@@ -75,12 +75,12 @@ const Myheader = () => {
               </ul>
             </div>
             <div>
-              <button className=" login_btn rounded-[5px] py-[12px]  px-[24px] text-[16px] font-semibold ff_inter text-white leading-[150%]">
+              <button className="login_btn rounded-[5px] py-[12px] px-[24px] text-[16px] font-semibold ff_inter text-white leading-[150%]">
                 Login
               </button>
             </div>
             <div
-              className=" position-relative  z-30 lg:hidden  "
+              className="position-relative z-30 lg:hidden  "
               onClick={() => {
                 setshow(!show);
               }}
@@ -90,17 +90,17 @@ const Myheader = () => {
           </div>
         </div>
       </nav>
-      <div className=" bg-black lg:min-h-[710px] ">
-        <div className=" container  max-w-[1164px] mx-auto px-3">
-          <div className=" flex flex-wrap items-center  lg:justify-between justify-center lg:pt-[85px] pt-[40px]">
-            <div className=" lg:w-[47%] w-[100%] text-center lg:text-start  ">
-              <h1 className=" text-white lg:text-[60px] text-[40px] font-bold ff_gilroy_bold leading-[100%]">
+      <div className="bg-black xl:flex xl:flex-grow xl:justify-center xl:items-center pb-[40px]  xl:pb-0 ">
+        <div className="container max-w-[1164px] mx-auto px-3">
+          <div className="flex flex-wrap items-center  lg:justify-between justify-center lg:pt-[85px] xl:pt-0 md:pt-[50px] pt-[40px]">
+            <div className="lg:w-[47%] w-[100%] text-center lg:text-start  ">
+              <h1 className=" text-white xl:text-[60px] lg:text-[57px] text-[40px] md:text-[45px] font-bold ff_gilroy_bold leading-[100%]">
                 Lorem ipsum dolo amet consectetur Interdum{" "}
-                <span className=" massa_clr">massa</span>.
+                <span className="massa_clr">massa</span>.
               </h1>
-              <p className=" text-[#cccccc] sm:text-[16px] text-[14px] font-normal ff_inter leading-[150%] mt-[16px]">
+              <p className="text-[#cccccc] sm:text-[16px] text-[14px] font-normal ff_inter leading-[150%] mt-[16px]">
                 Lorem ipsum dolor sit amet consectetur. Interdum neque{" "}
-                <span className=" sm:block">
+                <span className="sm:block">
                   arcu massa eleifend. Vulputate nisl est mollis bibendum
                 </span>{" "}
                 egestas diam pellentesque felis.
@@ -109,9 +109,9 @@ const Myheader = () => {
                 Get started
               </button>
             </div>
-            <div className=" lg:w-[50%] w-[100%]  mt-[50px] lg:mt-0 flex justify-center ">
+            <div className="lg:w-[50%] w-[100%] mt-[50px] lg:mt-0 flex justify-center ">
               <img
-                className=" lg:w-[100%] md:w-[60%] sm:w-[70%]"
+                className="lg:w-[100%] md:w-[60%] sm:w-[70%]"
                 src={hero_img}
                 alt="img"
               />
