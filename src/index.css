@@ -26,6 +26,13 @@
   font-family: "gilroy_bolditlaic";
   src: url("./assets/fonts/gilroy/Gilroy-BoldItalic.ttf");
 }
+@font-face {
+  font-family: "gilroy_regular";
+  src: url("./assets/fonts/gilroy/Gilroy-Regular.ttf");
+}
+.ff_gilroy_regular{
+  font-family: "gilroy_regular";
+}
 .ff_gilroy_bolditlaic {
   font-family: "gilroy_bolditlaic";
 }
@@ -55,10 +62,10 @@
   color: white;
 }
 .txt_clr{
-  background: var(--Linear, linear-gradient(265deg, #54E1A1 1.77%, #45ABD5 97.88%));
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+  background: var(--Linear, linear-gradient(265deg, #54E1A1 85.77%, #45ABD5 97.88%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 } 
 .card_get{
   background: var(--Linear, linear-gradient(265deg, #54E1A1 1.77%, #45ABD5 97.88%));
@@ -111,7 +118,7 @@ background-clip: text;
 }
 .card_border_gradien_1 {
   background: linear-gradient(black, black) padding-box,
-    linear-gradient(to right, #54e1a1, #45abd5) border-box;
+    linear-gradient(to bottom, #215a40, #1c4554) border-box;
   border: 2px solid transparent !important;
 }
 .card_border_gradien_1:hover {

@@ -3,9 +3,9 @@ import Icon, { Massage, Materials } from "./Icon";
 
 export const LoremIpsum = () => {
   return (
-    <div id="Services" className="xl:py-[150px] py-[50px] lg:py-[60px]">
+    <div id="Services" className="xl:py-[150px] py-[40px] lg:py-[60px]">
       <div className="container  max-w-[1144px] mx-auto px-3" >
-        <h2 className="lg:text-[48px] text-[30px] sm:text-[40px] ff_semi_bold font-semibold text-center leading-[119%]" data-aos="zoom-in-down">
+        <h2 className="lg:text-[48px] text-[30px] sm:text-[40px] ff_semi_bold font-semibold text-center leading-[90%] md:leading-[105%] lg:leading-[119%]" data-aos="zoom-in-down">
           Lorem ipsum dolor amet{" "}
           <span className="block massa_clr">consectetur</span>
         </h2>

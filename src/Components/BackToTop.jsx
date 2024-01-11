@@ -29,7 +29,7 @@ const BackToTop = () => {
       <section>
         <div className="back_to_top ">
           <img
-            className=" fixed animate-pulse w-[35px] bottom-[30px] right-[30px] items-center justify-center z-40 cursor-pointer bg-[#54e1a1] hover:bg-[#45abd5] rounded-[50%]  duration-500"
+            className=" fixed animate-pulse w-[35px] bottom-[100px] right-[30px] xl:bottom-[30px] items-center justify-center z-40 cursor-pointer bg-[#54e1a1] hover:bg-[#45abd5] rounded-[50%]  duration-500"
             onClick={scrollTop}
             style={{ height: 35, display: showScroll ? "flex" : "none" }}
             src={FiArrowUp}

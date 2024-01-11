@@ -2,7 +2,7 @@ import React, { useState , useEffect } from "react";
 import nav_logo from "../assets/img/svg/nav_logo.svg";
 import menu from "../assets/img/svg/menu.svg";
 import close from "../assets/img/svg/close.svg";
-import hero_img from "../assets/img/png/hero_img.png";
+import hero_img from "../assets/img/png/Objects_hero.webp";
 import "aos/dist/aos.css"
 import Aos from "aos"
 const Myheader = () => {
@@ -22,12 +22,12 @@ const Myheader = () => {
       setshow(false);
     };
   return (
-    <div className="xl:min-h-screen xl:flex xl:flex-col z-40 ">
+    <div className="xl:min-h-screen xl:flex xl:flex-col  ">
       <nav>
         <div className="container  max-w-[1144px] mx-auto px-3 ">
           <div className="flex justify-between items-center py-[26px]">
             <div className="flex items-center gap-[171px] ">
-             <a href="nav_logo"> <img className=" w-[70%]  sm:w-[100%]" src={nav_logo} alt="nav_logo" /></a>
+             <a href="/"> <img className=" w-[70%]  sm:w-[100%]" src={nav_logo} alt="nav_logo" /></a>
               <ul
                 className={`${
                   show ? "end-0" : "right-[-100%]"
@@ -97,17 +97,17 @@ const Myheader = () => {
           </div>
         </div>
       </nav>
-      <div id="Home" className="bg-black xl:flex xl:flex-grow xl:justify-center xl:items-center pb-[40px]  xl:pb-0 relative ">
-        <div className=" w-[160px] h-[160px] bg-[#54E1A1] blur-[150px] opacity-[0.9] top-0 right-0 absolute z-10 hidden  sm:block"></div>
-        <div className=" w-[160px] h-[160px] bg-[#54E1A1] blur-[150px] opacity-[0.9] bottom-0 left-0 absolute z-10 hidden  sm:block"></div>
+      <div id="Home" className="bg-black overflow-hidden xl:flex xl:flex-grow xl:justify-center xl:items-center   lg:py-[85px] xl:py-0 md:py-[50px] py-[40px] relative ">
+        <div className=" w-[160px] h-[160px] bg-[#54E1A1] blur-[150px] opacity-[0.9] top-0 right-0 absolute hidden  sm:block "></div>
+        <div className=" w-[160px] h-[160px] bg-[#54E1A1] blur-[150px] opacity-[0.9] bottom-0 left-0 absolute hidden  sm:block "></div>
         <div className="container max-w-[1144px] mx-auto px-3">
-          <div className="flex flex-wrap items-center  lg:justify-between justify-center lg:pt-[85px] xl:pt-0 md:pt-[50px] pt-[40px]">
+          <div className="flex flex-wrap items-center  lg:justify-between justify-center ">
             <div className="lg:w-[47%] w-[100%] text-center lg:text-start" data-aos="fade-right">
-              <h1 className=" text-white xl:text-[60px] lg:text-[57px] text-[40px] md:text-[45px] font-bold ff_gilroy_bold leading-[100%]">
+              <h1 className=" text-white xl:text-[60px] lg:text-[50px] text-[30px] md:text-[45px] font-bold ff_gilroy_bold leading-[100%]">
                 Lorem ipsum dolo amet consectetur Interdum{" "}
                 <span className="massa_clr ff_gilroy_bolditlaic">massa</span>.
               </h1>
-              <p className="text-[#cccccc] sm:text-[16px] text-[14px] font-normal ff_inter leading-[150%] mt-[16px]">
+              <p className="text-[#cccccc] sm:text-[16px] text-[13px] lg:text-[14px] xl:text-[16px] font-normal ff_inter leading-[150%] mt-[16px]">
                 Lorem ipsum dolor sit amet consectetur. Interdum neque{" "}
                 <span className="sm:block">
                   arcu massa eleifend. Vulputate nisl est mollis bibendum
