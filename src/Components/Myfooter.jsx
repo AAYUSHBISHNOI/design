@@ -29,30 +29,30 @@ const Myfooter = () => {
                 <div className=' w-[50%] md:w-[30%] lg:w-[25%] pt-5 md:pt-0 order-2 md:order-1'>
                     <ul>
                         <li className=' text-white font-serif text-[24px] ff_gilroy_heavy line_height mb-[20px]'>Phone</li>
-                        <li><a href="tel:+59 47556 81-100" className=' text-[#b2b2b2] text-[16px] font-normal leading-[150%] ff_inter'>+59 47556 81-100</a></li>
-                        <li className=' mt-[16px]'><a href="tel:+59 47556 81-100" className=' text-[#b2b2b2] text-[16px] font-normal leading-[150%] ff_inter'>+59 47556 81-100</a></li>
+                        <li><a href="tel:+59 47556 81-100" className=' text-[#b2b2b2] text-[16px] font-normal leading-[150%] ff_inter hover:text-white duration-700'>+59 47556 81-100</a></li>
+                        <li className=' mt-[16px]'><a href="tel:+59 47556 81-100" className=' text-[#b2b2b2] text-[16px] font-normal leading-[150%] ff_inter hover:text-white duration-700'>+59 47556 81-100</a></li>
                     </ul>
                     <ul className=' mt-[45px]'>
                         <li className=' text-white font-serif text-[24px] ff_gilroy_heavy leading-[125%] mb-[20px]'>Email</li>
-                        <li><a href="mailto:12345678@gmail.com" className=' text-[#b2b2b2] text-[16px] font-normal leading-[150%] ff_inter'>12345678@gmail.com</a></li>
+                        <li><a href="mailto:12345678@gmail.com" className=' text-[#b2b2b2] text-[16px] font-normal leading-[150%] ff_inter hover:text-white duration-700'>12345678@gmail.com</a></li>
                     </ul>
                 </div>
                 <div className=' w-[50%] md:w-[70%] lg:w-[20%] pt-5 lg:pt-0 order-1 md:order-2'>
                     <ul>
                         <li className=' text-white font-serif text-[24px] ff_gilroy_heavy line_height mb-[20px]'>Main Menu</li>
-                        <li><a href="#Home" className=' text-[#b2b2b2] text-[16px] font-normal leading-[150%] ff_inter'>Home</a></li>
-                        <li className=' mt-[16px]'><a href="#AboutUs" className=' text-[#b2b2b2] text-[16px] font-normal leading-[150%] ff_inter'>About Us</a></li>
-                        <li className=' mt-[16px]'><a href="Services" className=' text-[#b2b2b2] text-[16px] font-normal leading-[150%] ff_inter'>Services</a></li>
-                        <li className=' mt-[16px]'><a href="#Portfolio" className=' text-[#b2b2b2] text-[16px] font-normal leading-[150%] ff_inter'>Portfolio</a></li>
-                        <li className=' mt-[16px]'><a href="#ContactUs" className=' text-[#b2b2b2] text-[16px] font-normal leading-[150%] ff_inter'>Contact Us</a></li>
+                        <li><a href="#Home" className=' text-[#b2b2b2] text-[16px] font-normal leading-[150%] ff_inter hover:text-white duration-700'>Home</a></li>
+                        <li className=' mt-[16px]'><a href="#AboutUs" className=' text-[#b2b2b2] text-[16px] font-normal leading-[150%] ff_inter hover:text-white duration-700'>About Us</a></li>
+                        <li className=' mt-[16px]'><a href="Services" className=' text-[#b2b2b2] text-[16px] font-normal leading-[150%] ff_inter hover:text-white duration-700'>Services</a></li>
+                        <li className=' mt-[16px]'><a href="#Portfolio" className=' text-[#b2b2b2] text-[16px] font-normal leading-[150%] ff_inter hover:text-white duration-700'>Portfolio</a></li>
+                        <li className=' mt-[16px]'><a href="#ContactUs" className=' text-[#b2b2b2] text-[16px] font-normal leading-[150%] ff_inter hover:text-white duration-700'>Contact Us</a></li>
                     </ul>
                 </div>
                 <div className=' md:w-[30%] lg:w-[10%] order-3'>
                     <ul>
-                        <li className=' mt-4 md:mt-[50px]'><a href="" className=' text-[#b2b2b2] text-[16px] font-normal leading-[150%] ff_inter'>Careers</a></li>
-                        <li className=' mt-[16px]'><a href="" className=' text-[#b2b2b2] text-[16px] font-normal leading-[150%] ff_inter'>Blog</a></li>
-                        <li className=' mt-[16px]'><a href="" className=' text-[#b2b2b2] text-[16px] font-normal leading-[150%] ff_inter'>Team</a></li>
-                        <li className=' mt-[16px]'><a href="" className=' text-[#b2b2b2] text-[16px] font-normal leading-[150%] ff_inter'>Contacts</a></li>
+                        <li className=' mt-4 md:mt-[50px]'><a href="" className=' text-[#b2b2b2] text-[16px] font-normal leading-[150%] ff_inter hover:text-white duration-700'>Careers</a></li>
+                        <li className=' mt-[16px]'><a href="" className=' text-[#b2b2b2] text-[16px] font-normal leading-[150%] ff_inter hover:text-white duration-700'>Blog</a></li>
+                        <li className=' mt-[16px]'><a href="" className=' text-[#b2b2b2] text-[16px] font-normal leading-[150%] ff_inter hover:text-white duration-700'>Team</a></li>
+                        <li className=' mt-[16px]'><a href="" className=' text-[#b2b2b2] text-[16px] font-normal leading-[150%] ff_inter hover:text-white duration-700'>Contacts</a></li>
                     </ul>
                 </div>
             </div>
