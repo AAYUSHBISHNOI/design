@@ -26,7 +26,6 @@ const Myheader = () => {
       <nav>
         <div className="container  max-w-[1144px] mx-auto px-3 md:px-[20px]">
           <div className="flex justify-between items-center py-[26px]">
-            <div className="flex items-center gap-[171px] ">
              <a href="/"> <img className=" w-[70%]  sm:w-[100%]" src={nav_logo} alt="nav_logo" /></a>
               <ul
                 className={`${
@@ -80,7 +79,6 @@ const Myheader = () => {
               </button>
             </div>
               </ul>
-            </div>
             <div>
               <button className="login_btn hidden sm:block rounded-[5px] py-[12px] px-[24px] text-[16px] font-semibold ff_inter text-white leading-[150%]">
                 Login
