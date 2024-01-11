@@ -6,8 +6,8 @@ const Myfooter = () => {
   const year = today.getFullYear();
   return (
     <div id='ContactUs' className=' bg-black'>
-        <div className=' container max-w-[1164px] mx-auto px-3'>
-            <div className='pt-28 md:pt-[130px] lg:pt-44 flex flex-wrap'>
+        <div className=' container max-w-[1164px] mx-auto px-3 md:px-[20px]'>
+            <div className='pt-24  md:pt-[130px] lg:pt-44 flex flex-wrap'>
                 <div className=' w-[100%] md:w-[70%] lg:w-[44%]'>
                     <p className=' text-[24px] font-semibold ff_gilroy_regular line_height text-white'>Transforma Digital</p>
                     <p className=' text-[#b2b2b2] text-[16px] font-normal leading-[150%] ff_inter mt-[7px] md:mt-[16px]'>Lorem ipsum dolor sit amet consectetur. <span className=' sm:block'> Interdum neque isl est mollis bibendum</span><span className=' sm:block'> egestas diamarcu massa eleifend.</span></p>
@@ -57,9 +57,9 @@ const Myfooter = () => {
                 </div>
             </div>
         </div>
-        <div className='bg-[#666666] w-[100%] h-[1px] opacity-[0.4] mt-[62px]'></div>
-        <div className=' container max-w-[1164px] mx-auto px-3'>
-            <div className=' flex flex-col md:flex-row justify-center sm:justify-between items-center py-[29px]'>
+        <div className='bg-[#666666] w-[100%] h-[1px] opacity-[0.4] mt-[30px] sm:mt-[62px]'></div>
+        <div className=' container max-w-[1164px] mx-auto px-3 md:px-[20px]'>
+            <div className=' flex flex-col md:flex-row justify-center sm:justify-between items-center pt-[29px] pb-10 md:pb-[60px] xl:py-[29px]'>
                  <div class="text-center text-white">
                  <small className=' text-[#b2b2b2] text-[14px] md:text-[16px] font-normal leading-[150%] ff_inter'>{year} Transforma Digital Website, All right reserved.</small>
                 </div>

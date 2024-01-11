@@ -116,18 +116,18 @@
   box-shadow: 0px 0px 7.7px 0px rgba(0, 0, 0, 0.15) !important;
   border: transparent 2px solid !important;
 }
+.card_border_gradient:hover p {
+  color: white !important;
+}
 .card_border_gradien_1 {
   background: linear-gradient(black, black) padding-box,
     linear-gradient(to bottom, #215a40, #1c4554) border-box;
   border: 2px solid transparent !important;
 }
 .card_border_gradien_1:hover {
-  background: linear-gradient(265deg, #54e1a1 1.77%, #45abd5 97.88%) padding-box,
-    linear-gradient(265deg, #54e1a1 1.77%, #45abd5 97.88%) border-box !important;
-  border: transparent 2px solid !important;
-}
-.card_border_gradient:hover p {
-  color: white !important;
+  background: linear-gradient(black, black) padding-box,
+  linear-gradient(to bottom, #000, #000) border-box;
+border: 2px solid transparent !important;
 }
 #listen .slick-slide{
   padding-top: 10px !important; 
@@ -164,6 +164,59 @@
 .card_bg:hover::after{
   opacity: 1;
 }
+.card_border_gradien_1 {
+  /* height: 100%; */
+  position: relative;
+  /* width: 100%; */
+  transition: all 500ms linear; 
+}
+.card_border_gradien_1::after {
+  content:""; 
+  background: linear-gradient( to bottom, #54e1a1 1.77%, #45abd5 97.88%) padding-box,
+  linear-gradient( to bottom, #54e1a1 1.77%, #45abd5 97.88%) border-box !important;
+  height: 100%;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  transition: all 500ms;
+  z-index: -1;
+  border-radius: 12px;
+  width:100%;
+  border: 2px solid transparent !important;
+}
+.card_border_gradien_1:hover::after{
+  opacity: 1;
+}
+.card_border_gradient {
+  /* height: 100%; */
+  position: relative;
+  /* width: 100%; */
+  transition: all 500ms linear; 
+}
+.card_border_gradient::after {
+  content:""; 
+  background: linear-gradient( to bottom, #54e1a1 1.77%, #45abd5 97.88%) padding-box,
+  linear-gradient( to bottom, #54e1a1 1.77%, #45abd5 97.88%) border-box !important;
+  height: 100%;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  transition: all 500ms linear !important;
+  z-index: -1;
+  border-radius: 12px;
+  width:100%;
+  border: 2px solid transparent !important;
+}
+.card_border_gradient:hover::after{
+  opacity: 1;
+}
 html ,body{
   scroll-behavior: smooth !important;
+}
+
+.xsm_cardLine{
+  opacity: 0.6;
+background: linear-gradient(265deg, #54E1A1 1.77%, #45ABD5 97.88%);
 }

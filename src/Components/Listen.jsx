@@ -15,11 +15,11 @@ const Listen = () => {
   };
   return (
     <div id='listen'>
-      <div className=' container max-w-[1164px] mx-auto pt-10 md:pt-20 lg:pt-[96px] xl:pt-[150px] px-3'>
+      <div className=' container max-w-[1164px] mx-auto pt-[45px] md:pt-[60px] lg:pt-[85px] xl:pt-[150px] px-3 md:px-[20px]'>
         <div className=' flex flex-col md:flex-row text-center md:text-start justify-center md:justify-between items-center' data-aos="zoom-in">
           <div>
           <p className='txt_clr ff_gilroy_heavy text-[22px] sm:text-[24px] font-semibold line_height'>Testimonials</p>
-        <h2 className=' text-black ff_gilroy_heavy text-[28px] sm:text-[48px] font-semibold line_height mt-2 md:mt-[16px]'>Listen to our happy clients</h2>
+        <h2 className=' text-black ff_gilroy_heavy text-[28px] xl:text-[48px] md:text-[36px] lg:text-[44px]   font-semibold line_height mt-2 md:mt-[16px]'>Listen to our happy clients</h2>
           </div>
           <div className=' mt-3 md:mt-0'>
               <button className=' z-3' onClick={() => slider.current.slickPrev()}><Arrowone/></button>
@@ -27,7 +27,7 @@ const Listen = () => {
         </div>
         </div>
        
-       <Slider ref={slider} {...settings} className=' mt-[45px]'>
+       <Slider ref={slider} {...settings} className='lg:mt-[45px] mt-[20px]'>
         <div className=''>
           <div className=' flex  gap-[25px]'>
             <div className='w-[100%] lg:w-[50%]' data-aos="zoom-in-up">
@@ -164,9 +164,9 @@ const Listen = () => {
           </div>
           </div>
        </Slider>
-       <div className=' card_get rounded-[16px] py-[40px] md:py-[60px] lg:px-[211px] translate-y-16 lg:translate-y-[96px] xl:translate-y-32'>
-        <div className='  text-center flex-col'>
-          <p className=' text-white text-[25px] md:text-[38px] font-semibold ff_gilroy_heavy line_height'>We are always ready to help you and answer your questions.</p>
+       <div className=' card_get rounded-[16px] flex justify-center py-[40px] md:py-[60px] lg:px-[211px] translate-y-16 lg:translate-y-[96px] xl:translate-y-32'>
+        <div className='  text-center flex-col '>
+          <p className=' text-white text-[25px] md:text-[38px] font-semibold ff_gilroy_heavy line_height max-w-[300px] md:max-w-[450px] lg:max-w-[650px]'>We are always ready to help you and answer your questions.</p>
           <button className=' text-[#45ABD5] leading-[150%] text-[16px] font-semibold ff_inter py-[12px] px-[24px] hover:text-white duration-500 hover:bg-[#45abd5] bg-white rounded-[5px] mt-[20px]'>Get in Touch</button>
           </div>
        </div>

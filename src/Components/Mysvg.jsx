@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Bulb = () => {
   return (
-    <svg className=' w-[70%] lg:w-[100%]' height="90" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg className=' w-[50%] lg:w-[100%]' height="90" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect x="0.5" y="0.5" width="95" height="95" rx="16" fill="#45ABD5"/>
 <path d="M23 48.5H25.8333M48.5 23V25.8333M71.1667 48.5H74M30.3667 30.3667L32.35 32.35M66.6333 30.3667L64.65 32.35M41.9833 62.6667H55.0167M40 59.8333C37.6213 58.0493 35.8643 55.5621 34.9777 52.724C34.0912 49.886 34.1201 46.8409 35.0603 44.0201C36.0006 41.1994 37.8045 38.7459 40.2166 37.0074C42.6287 35.2689 45.5267 34.3333 48.5 34.3333C51.4733 34.3333 54.3713 35.2689 56.7834 37.0074C59.1955 38.7459 60.9994 41.1994 61.9397 44.0201C62.8799 46.8409 62.9088 49.886 62.0223 52.724C61.1357 55.5621 59.3787 58.0493 57 59.8333C55.8938 60.9284 55.0609 62.2684 54.5686 63.7451C54.0764 65.2218 53.9387 66.7936 54.1667 68.3333C54.1667 69.8362 53.5696 71.2776 52.5069 72.3403C51.4442 73.403 50.0029 74 48.5 74C46.9971 74 45.5558 73.403 44.4931 72.3403C43.4304 71.2776 42.8333 69.8362 42.8333 68.3333C43.0613 66.7936 42.9236 65.2218 42.4314 63.7451C41.9391 62.2684 41.1062 60.9284 40 59.8333Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
@@ -10,7 +10,7 @@ export const Bulb = () => {
 }
 export const Line = () => {
   return (
-<svg className=' hidden lg:block mx-[28px]' width="2" height="213" viewBox="0 0 2 213" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg className=' hidden md:block mx-4 lg:mx-[28px] h-1/3 ' width="2" height="213" viewBox="0 0 2 213" fill="none" xmlns="http://www.w3.org/2000/svg">
 <line opacity="0.6" x1="1" y1="4.87462e-08" x2="0.999992" y2="213" stroke="url(#paint0_linear_207_2216)" stroke-width="2"/>
 <defs>
 <linearGradient id="paint0_linear_207_2216" x1="-0.0685988" y1="210.114" x2="-12.6962" y2="209.392" gradientUnits="userSpaceOnUse">

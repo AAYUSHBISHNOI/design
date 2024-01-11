@@ -14,7 +14,6 @@ import Consectetur from "./Components/Consectetur";
 function App() {
   return (
     < div className=" overflow-hidden">
-      <BackToTop />
       <Myheader/>
       <LoremIpsum />
       <Consectetur/>
@@ -22,6 +21,7 @@ function App() {
       <Our/>
       <Listen/>
       <Myfooter/>
+      <BackToTop />
     </div>
   );
 }
