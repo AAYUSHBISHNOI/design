@@ -61,7 +61,7 @@ const Myfooter = () => {
         <div className=' container max-w-[1164px] mx-auto px-3'>
             <div className=' flex flex-col md:flex-row justify-center sm:justify-between items-center py-[29px]'>
                  <div class="text-center text-white">
-                 <small className=' cursor-pointer text-[#b2b2b2] text-[14px] md:text-[16px] font-normal leading-[150%] ff_inter'>{year} Transforma Digital Website, All right reserved.</small>
+                 <small className=' text-[#b2b2b2] text-[14px] md:text-[16px] font-normal leading-[150%] ff_inter'>{year} Transforma Digital Website, All right reserved.</small>
                 </div>
                
                 <div className=' flex gap-[30px]  mt-2 md:mt-0'>
