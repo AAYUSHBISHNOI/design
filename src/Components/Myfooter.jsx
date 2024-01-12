@@ -65,8 +65,8 @@ const Myfooter = () => {
                 </div>
                
                 <div className=' flex gap-[30px]  mt-2 md:mt-0'>
-                    <p className=' cursor-pointer text-[#b2b2b2] text-[14px] md:text-[16px] font-normal leading-[150%] ff_inter'>Privacy Policy</p>
-                    <p className=' cursor-pointer text-[#b2b2b2] text-[14px] md:text-[16px] font-normal leading-[150%] ff_inter'>Terms of  Use</p>
+                    <a href="" className='text-[#b2b2b2] text-[14px] md:text-[16px] font-normal leading-[150%] ff_inter'>Privacy Policy</a>
+                    <a href="" className='text-[#b2b2b2] text-[14px] md:text-[16px] font-normal leading-[150%] ff_inter'>Terms of  Use</a>
                 </div>
             </div>
         </div>
