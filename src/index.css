@@ -208,10 +208,25 @@ border: 2px solid transparent !important;
 .card_border_gradient:hover:after{
   opacity: 1;
 }
-html ,body{
+.back-to-top-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: linear-gradient( to bottom, #54e1a1 1.77%, #45abd5 97.88%) padding-box,
+  linear-gradient( to bottom, #54e1a1 1.77%, #45abd5 97.88%) border-box !important;
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  opacity: 0;
+  transition:  500ms ease-in-out;
+  z-index: 100;
   scroll-behavior: smooth !important;
 }
 
+.back-to-top-btn.visible {
+  opacity: 1;
+}
 .xsm_cardLine{
   opacity: 0.6;
 background: linear-gradient(265deg, #54E1A1 1.77%, #45ABD5 97.88%);

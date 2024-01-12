@@ -40,11 +40,11 @@ const Myfooter = () => {
                 <div className=' w-[50%] md:w-[70%] lg:w-[20%] pt-5 lg:pt-0 order-1 md:order-2'>
                     <ul>
                         <li className=' text-white font-serif text-[24px] ff_gilroy_heavy line_height mb-[20px]'>Main Menu</li>
-                        <li><a href="#Home" className=' text-[#b2b2b2] text-[16px] font-normal leading-[150%] ff_inter hover:text-white duration-700'>Home</a></li>
-                        <li className=' mt-[16px]'><a href="#AboutUs" className=' text-[#b2b2b2] text-[16px] font-normal leading-[150%] ff_inter hover:text-white duration-700'>About Us</a></li>
-                        <li className=' mt-[16px]'><a href="Services" className=' text-[#b2b2b2] text-[16px] font-normal leading-[150%] ff_inter hover:text-white duration-700'>Services</a></li>
-                        <li className=' mt-[16px]'><a href="#Portfolio" className=' text-[#b2b2b2] text-[16px] font-normal leading-[150%] ff_inter hover:text-white duration-700'>Portfolio</a></li>
-                        <li className=' mt-[16px]'><a href="#ContactUs" className=' text-[#b2b2b2] text-[16px] font-normal leading-[150%] ff_inter hover:text-white duration-700'>Contact Us</a></li>
+                        <li><a href="" className=' text-[#b2b2b2] text-[16px] font-normal leading-[150%] ff_inter hover:text-white duration-700'>Home</a></li>
+                        <li className=' mt-[16px]'><a href="" className=' text-[#b2b2b2] text-[16px] font-normal leading-[150%] ff_inter hover:text-white duration-700'>About Us</a></li>
+                        <li className=' mt-[16px]'><a href="" className=' text-[#b2b2b2] text-[16px] font-normal leading-[150%] ff_inter hover:text-white duration-700'>Services</a></li>
+                        <li className=' mt-[16px]'><a href="" className=' text-[#b2b2b2] text-[16px] font-normal leading-[150%] ff_inter hover:text-white duration-700'>Portfolio</a></li>
+                        <li className=' mt-[16px]'><a href="" className=' text-[#b2b2b2] text-[16px] font-normal leading-[150%] ff_inter hover:text-white duration-700'>Contact Us</a></li>
                     </ul>
                 </div>
                 <div className=' md:w-[30%] lg:w-[10%] order-3'>

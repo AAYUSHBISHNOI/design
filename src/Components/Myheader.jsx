@@ -35,7 +35,7 @@ const Myheader = () => {
               >
                 <li>
                   <a
-                    href="#Home" onClick={Movement}
+                    href="" onClick={Movement}
                     className="lg:text-[16px] text-[20px] md:text-[22px] font-normal ff_inter text-[#666666] leading-[150%] nav_links relative after:absolute after:bg-[#000] after:w-0 after:h-[2px] after:bottom-[-5px] after:right-[50%] hover:after:right-[0] after:rounded-full  after:duration-300 inline hover:after:w-[100%]"
                   >
                     Home
@@ -43,7 +43,7 @@ const Myheader = () => {
                 </li>
                 <li>
                   <a
-                    href="#AboutUs" onClick={Movement}
+                    href="" onClick={Movement}
                     className="lg:text-[16px] text-[20px] md:text-[22px] font-normal ff_inter text-[#666666] leading-[150%] nav_links relative after:absolute after:bg-[#000] after:w-0 after:h-[2px] after:bottom-[-5px] after:right-[50%] hover:after:right-[0] after:rounded-full  after:duration-300 inline hover:after:w-[100%]"
                   >
                     About Us
@@ -51,7 +51,7 @@ const Myheader = () => {
                 </li>
                 <li>
                   <a
-                    href="#Portfolio" onClick={Movement}
+                    href="" onClick={Movement}
                     className="lg:text-[16px] text-[20px] md:text-[22px] font-normal ff_inter text-[#666666] leading-[150%] nav_links relative after:absolute after:bg-[#000] after:w-0 after:h-[2px] after:bottom-[-5px] after:right-[50%] hover:after:right-[0] after:rounded-full  after:duration-300 inline hover:after:w-[100%]"
                   >
                     Portfolio
@@ -59,7 +59,7 @@ const Myheader = () => {
                 </li>
                 <li>
                   <a
-                    href="#Services" onClick={Movement}
+                    href="" onClick={Movement}
                     className="lg:text-[16px] text-[20px] md:text-[22px] font-normal ff_inter text-[#666666] leading-[150%] nav_links relative after:absolute after:bg-[#000] after:w-0 after:h-[2px] after:bottom-[-5px] after:right-[50%] hover:after:right-[0] after:rounded-full  after:duration-300 inline hover:after:w-[100%]"
                   >
                     Services
@@ -67,7 +67,7 @@ const Myheader = () => {
                 </li>
                 <li>
                   <a
-                    href="#ContactUs" onClick={Movement}
+                    href="" onClick={Movement}
                     className="lg:text-[16px] text-[20px] md:text-[22px] font-normal ff_inter text-[#666666] leading-[150%] nav_links relative after:absolute after:bg-[#000] after:w-0 after:h-[2px] after:bottom-[-5px] after:right-[50%] hover:after:right-[0] after:rounded-full  after:duration-300 inline hover:after:w-[100%]"
                   >
                     Contact Us
