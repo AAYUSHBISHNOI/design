@@ -108,7 +108,7 @@ export const Threetar = () => {
 }
 export const Arrowone = () => {
   return (
-<svg className=' slider_arrow mr-4' width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg className=' slider_arrow mr-2' width="44" height="44" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect x="1" y="1" width="46" height="46" rx="23" transform="matrix(4.37114e-08 1 1 -4.37114e-08 4.37114e-08 -4.37114e-08)" fill="white" stroke="#54DEA5" stroke-opacity="0.4" stroke-width="2" />
 <path d="M28 34L18 24L28 14" stroke="#45ABD5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
@@ -116,7 +116,7 @@ export const Arrowone = () => {
 }
 export const Arrowtwo = () => {
   return (
-<svg className=' slider_arrow' width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg className=' slider_arrow' width="44" height="44" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect x="48" width="48" height="48" rx="24" transform="rotate(90 48 0)" fill="white" stroke="#54DEA5"/>
 <path d="M20 34L30 24L20 14" stroke="#45ABD5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
