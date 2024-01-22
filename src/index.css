@@ -209,6 +209,7 @@ border: 2px solid transparent !important;
   opacity: 1;
 }
 .back-to-top-btn {
+
   position: fixed;
   bottom: 20px;
   right: 20px;

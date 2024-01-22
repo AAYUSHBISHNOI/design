@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { animateScroll as scroll } from "react-scroll";
-import backtotop from "../assets/img/backto_top.svg";
+import backtotop from "../assets/img/svg/backtotops.svg";
 
 const BackToTop = () => {
   const [isVisible, setIsVisible] = useState(false);
